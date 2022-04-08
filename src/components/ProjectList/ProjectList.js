@@ -3,15 +3,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Project from './Project';
+import './projectList.css';
 
 function ProjectList({ stateProjects }) {
   return (
-    <section> {
+    <section className="projectList"> {
         stateProjects.map((project, i) => (
           <Project img={project.img} key={i} />
         ))
             }
-
     </section>
   );
 }

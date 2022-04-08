@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Project({ img }) {
   return (
-    <img src={img} alt="фото обложки проекта" />
+    <img className="img" src={img} alt="фото обложки проекта" />
   );
 }
 
