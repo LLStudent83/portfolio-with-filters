@@ -1,12 +1,12 @@
 .img {
  width: 200px;
- /* height: auto; */
  margin: 10px 10px;
  object-fit: none;
- /* flex-basis: content; */
 }
 
 .projectList {
     display: flex;
-    flex-wrap: wrap
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1200px;
 }
